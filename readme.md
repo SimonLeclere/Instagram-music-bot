@@ -12,7 +12,7 @@ Just send `!play musicname` to the bot in private message, make your choice amon
 # How to install
 
 ```
-git clone 
+git clone https://github.com/SimonLeclere/Instagram-music-bot.git
 npm i
 ```
 
