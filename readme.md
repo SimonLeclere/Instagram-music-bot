@@ -23,4 +23,4 @@ Then fill the configuration file with your instagram credentials and use the fol
 node .
 ```
 
-This little project uses [insta.js](https://github.com/Androz2091/insta.js) a module created by @androz2091 <3
+This little project uses [insta.js](https://github.com/Androz2091/insta.js) a module created by [Androz2091](https://github.com/Androz2091/) <3
