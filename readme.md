@@ -7,7 +7,7 @@ Simple instagram bot to send music or youtube videos (limited to those of one mi
 A hosted version currently exists for testing purposes: [click here](https://www.instagram.com/musicbot_0001/)
 Just send `!play musicname` to the bot in private message, make your choice among the proposed results and let's hear it!
 
-![](assets/screenshot.jpg)
+<img width="270" height="540" src="./assets/screenshot.jpg">
 
 # How to install
 
