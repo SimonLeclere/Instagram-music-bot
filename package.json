@@ -1,0 +1,17 @@
+{
+  "name": "insta-music-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@androz2091/insta.js": "^1.6.1",
+    "ffmpeg-static": "^4.2.7",
+    "youtube-sr": "^4.0.3",
+    "ytdl-core": "^4.5.0"
+  }
+}
