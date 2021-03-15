@@ -1,10 +1,13 @@
 # Insta Music Bot
 
-Simple instagram bot to send music or youtube videos (limited to those of one minute or less) by voice messages on instagram!
+Simple instagram bot to send music or youtube videos (limited to those of one minute or less) by voice messages on instagram !
 
 # How to use
 
+A hosted version currently exists for testing purposes: [click here](https://www.instagram.com/musicbot_0001/)
 Just send `!play musicname` to the bot in private message, make your choice among the proposed results and let's hear it!
+
+![](assets/screenshot.jpg)
 
 # How to install
 
