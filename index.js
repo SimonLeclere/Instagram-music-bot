@@ -9,7 +9,8 @@ client.on('connected', () => {
     console.log(`Client connecté avec le profil ${client.user.username}`);
 })
 
-client.on('messageCreate', async message => {
+
+client.on('messageCreate', async message => {  
 
     if(!message.content || message.authorID === client.user.id || !message.content.startsWith(config.prefix)) return;
 
@@ -17,6 +18,8 @@ client.on('messageCreate', async message => {
     const commandName = args.shift().toLowerCase();
 
     message.markSeen();
+     
+    message.chat.approve();
 
     if(['play', 'p'].includes(commandName)) {
 
