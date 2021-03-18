@@ -19,7 +19,11 @@ client.on('messageCreate', async message => {
 
     message.markSeen();
      
-    message.chat.approve();
+    
+    client.on('pendingRequest', chat => {
+        chat.approve();
+    })
+
 
     if(['play', 'p'].includes(commandName)) {
 
