@@ -1,5 +1,6 @@
 {
     "prefix": "!",
+    "ffmpeg_path": "ffmpeg_path",
     "username": "",
     "password": ""
 }
