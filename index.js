@@ -10,6 +10,10 @@ client.on('connected', () => {
 })
 
 
+client.on('pendingRequest', chat => {
+        chat.approve();
+    });
+
 client.on('messageCreate', async message => {  
 
     if(!message.content || message.authorID === client.user.id || !message.content.startsWith(config.prefix)) return;
@@ -19,11 +23,6 @@ client.on('messageCreate', async message => {
 
     message.markSeen();
      
-    
-    client.on('pendingRequest', chat => {
-        chat.approve();
-    })
-
 
     if(['play', 'p'].includes(commandName)) {
 
