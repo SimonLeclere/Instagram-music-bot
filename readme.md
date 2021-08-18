@@ -10,6 +10,10 @@ Just send `!play musicname` to the bot in private message, make your choice amon
 
 # How to install
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+OR
+
 ```
 git clone https://github.com/SimonLeclere/Instagram-music-bot.git
 npm i
